@@ -9,12 +9,12 @@ The task for this project included:
 - Implementing the 2D Fourier Transform using the built-in Matlab fft function
 
 ## Structure 
-The code for this project is located in the [code](./dfmunozs_code/) folder
+The [code](./dfmunozs_project01/dfmunozs_code/) for this project is contained in a sigle directory with the following files: 
 - pd.py contains the padding function
 - q1.py contains the convolution function as well as the driver functions to test the convolution. 
 - q2.m contains the 2D FFT implementation
  
-The [Outputs](./Outputs) folder contains the output files 
+The [Outputs](./dfmunozs_project01/Outputs/) folder contains the output files 
 
 ## Runing the code
 The code for the padding and convolution was designed to be run on a Linux system as a python file using the python3 interpreter with command line arguments used to determine what files to run the convoltuion on as well as the type of padding and filter. 
