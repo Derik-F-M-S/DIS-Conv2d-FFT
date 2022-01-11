@@ -7,14 +7,20 @@ The task for this project included:
 - Creating an image padding function from scratch
 - Creating and implementing a 2d convolution function in spacial domain
 - Implementing the 2D Fourier Transform using the built-in Matlab fft function
+## Dependencies 
+This project requires Python 3 for the padding and convolution sections along with the following python modules:
+- Numpy 
+- CV2
+
+The 2DFFT portion of the project requires a standard instalation of Matlab.
 
 ## Structure 
 The [code](./dfmunozs_project01/dfmunozs_code/) for this project is contained in a sigle directory with the following files: 
-- pd.py contains the padding function
-- q1.py contains the convolution function as well as the driver functions to test the convolution. 
-- q2.m contains the 2D FFT implementation
+- [pd.py](./dfmunozs_project01/dfmunozs_code/pd.py) contains the padding function
+- [q1.py](./dfmunozs_project01/dfmunozs_code/q1.py) contains the convolution function as well as the driver functions to test the convolution. 
+- [q2.m ](./dfmunozs_project01/dfmunozs_code/q2.m) contains the 2D FFT implementation
  
-The [Outputs](./dfmunozs_project01/Outputs/) folder contains the output files 
+The [Outputs](./dfmunozs_project01/Outputs/) folder contains the output files. The directory and file names describe what each output represents.
 
 ## Runing the code
 The code for the padding and convolution was designed to be run on a Linux system as a python file using the python3 interpreter with command line arguments used to determine what files to run the convoltuion on as well as the type of padding and filter. 
